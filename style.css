@@ -5,17 +5,168 @@ html { box-sizing: border-box; }
 
 /*
 BARVY
-czechitas                 #b92e81
-šedé pozadí stránky       #bdc3c7
-tmavé pozadí pod textem   #31363b
-dělítka mezi tlačítky     #3f464d
-tlačítko portfolio        #e74c3c
-tlačítko facebook         #3b5998
-tlačítko twitter          #1da1f2
+czechitas                 #b92e81 → OK
+šedé pozadí stránky       #bdc3c7 → OK
+tmavé pozadí pod textem   #31363b → OK
+dělítka mezi tlačítky     #3f464d → OK
+tlačítko portfolio        #e74c3c → OK
+tlačítko facebook         #3b5998 → OK
+tlačítko twitter          #1da1f2 → OK
 */
 
 
-body {
+body 
+{
   background-color: #bdc3c7;
+  position: absolute;
 }
 
+
+.profil 
+{
+  box-shadow: 10px 10px 5px #BCADBC;
+  position: relative;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+
+
+
+.foto 
+{
+  width: 250px;
+  height: 170px;
+  margin: 0px;
+  background-color: #31363b;
+}
+
+
+.logo 
+{
+  border-radius: 50%;
+  background-color: #b92e81;
+  margin-top: 145px;
+  margin-left: -75px;
+  position: absolute;
+}
+
+
+.obsah 
+{
+  margin: -5px 0px 0px 0px;
+  padding: 10px 20px 10px 20px;
+  width: 250px;
+  background-color: #31363b;
+  color: white;
+  text-align: left;
+  font-size: 16px; 
+}
+
+
+.odkazy 
+{
+  text-align: center;
+  line-height: 45px;
+  text-transform: uppercase;
+  width: 250px;
+  margin: 0px 0px 0px 0px;
+  list-style-type: none;
+  position: relative;
+}
+
+
+.portfolio 
+{
+  background-color: #31363b;
+  width: 250px;
+  height: 50px;
+  border: 1px solid #3f464d;
+  position: relative;
+  top: 0px;
+  right: 40px;
+}
+
+
+.portfolio:hover 
+{
+  background-color: #e74c3c;
+}
+
+
+.facebook 
+{
+  background-color: #31363b;
+  width: 125px;
+  height: 50px;
+  border: 1px solid #3f464d;
+  position: relative;
+  top: 0px;
+  right: 40px
+}
+
+
+.facebook:hover {
+	background-color: #3b5998;
+}
+
+
+.twitter 
+{
+  background-color: #31363b;
+  width: 125px;
+  height: 50px;
+  border: 1px solid #3f464d;
+  position: absolute;
+  bottom: 0px;
+  left: 125px;
+}
+
+
+.twitter:hover {
+  background-color: #1da1f2;
+}
+
+
+a {
+	color: #9DA5A2;
+  text-decoration: none;
+}
+
+
+a:hover {
+  color: white;
+}
+
+
+.jmeno {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 25px;
+  font-style: normal;
+}
+
+
+.odkazy {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 14px;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "Source Sans Pro", sans-serif;
+  src: url(pro/SourceSansPro-Black.otf) format('otf');
+}
+
+
+.obsah p {
+  font-family: "Source Sans Pro", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #9DA5A2;
+  font-size: 12px;
+  font-weight: bold;
+}
